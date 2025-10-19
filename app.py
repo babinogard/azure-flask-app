@@ -6,5 +6,7 @@ app = Flask(__name__)
 def home():
     return "Hello from Azure App Service.\n This is X."
 
+print("This is test: one, two, three!")
+
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
