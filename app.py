@@ -1,10 +1,18 @@
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello from Azure App Service.\n This is X."
+    return render_template("home.html")
+
+@app.route("/about")
+def about():
+    return "This is about page."
+
+@app.route("/contact")
+def contact():
+    return "This is contact page"
 
 print("This is test: one, two, three!")
 
