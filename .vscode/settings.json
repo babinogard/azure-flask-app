@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/8a74416a-38e1-4ec9-ad3d-8f275f597edd/resourceGroups/appsvc_linux_polandcentral/providers/Microsoft.Web/sites/myflaskdemo8",
+    "appService.deploySubpath": "."
+}
