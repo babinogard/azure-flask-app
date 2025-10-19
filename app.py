@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello from Azure App Service"
+    return "Hello from Azure App Service\n This is additional text."
 
 if __name__ == "__main__":
     app.run()
